@@ -1,6 +1,12 @@
-<<<<<<< HEAD
 # ROS2 Rover Prep
-Day 1: ROS2 Humble environment set up via Docker on macOS.
-=======
-# ros2-rover
->>>>>>> 60b42d9d11fec3c59c9952cd8a76ed1214f92457
+
+A personal project space for learning ROS2 by building small, real robotics systems — nodes, publishers/subscribers, and simulated sensor logic — rather than just following tutorials.
+
+## Projects
+
+### obstacle_sensor
+A simulated obstacle-detection system with two ROS2 nodes: a distance sensor publisher and a safety-monitor subscriber that reacts when a rover would be too close to an obstacle. See [`obstacle_sensor/README.md`](./obstacle_sensor/README.md) for details.
+
+## Environment
+
+Built and tested using ROS2 Humble running in Docker (via [tiryoh/ros2-desktop-vnc](https://github.com/Tiryoh/docker-ros2-desktop-vnc)) on macOS, since ROS2 doesn't natively support Mac.
